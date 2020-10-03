@@ -7,7 +7,8 @@ src/principal/RoundRobin.java
   private  void  ejecutarSFJ ( ArrayList < Proceso >  procesosLista , int  q )        
     En este proceso primero creo las extructuras y variables aux
 
-   Recorro la lista con todos los procesos(procesos general(Nuevo))
+   Recorro la lista con todos los procesos(procesos general(Nuevo)
+   
       creo una lista aux para almacenar los procesos y poder eliminar los ya ordenados
       creo una lista con los procesos cuyo tiempo de llegada sea menor al tiempo de reloj 
       ordeno esta lista con los procesos pertenecientes a la ronda (SFJ)
