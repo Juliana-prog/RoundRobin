@@ -5,7 +5,7 @@ src/principal/RoundRobin.java
  
  
   private  void  ejecutarSFJ ( ArrayList < Proceso >  procesosLista , int  q )        
-    En este proceso primero creo las extructuras y variables aux
+    En este proceso primero creo las estructuras y variables aux
 
    Recorro la lista con todos los procesos(procesos general(Nuevo)
    
