@@ -2,18 +2,19 @@
 Procesos mas importante :
 
 src/principal/RoundRobin.java
-
-private  void  ejecutarSFJ ( ArrayList < Proceso >  procesosLista , int  q ) 
-  En este proceso primero creo las extructuras y variables aux
  
- Recorro la lista con todos los procesos(procesos general(Nuevo))
-    creo una lista aux para almacenar los procesos y poder eliminar los ya ordenados
-    creo una lista con los procesos cuyo tiempo de llegada sea menor al tiempo de reloj 
-    ordeno esta lista con los procesos pertenecientes a la ronda (SFJ)
-    elimino los elementos ya ordenados de la aux
-    
-   la lista ordenada añado a una cola de procesamientos (procesos listos)
-   
+ 
+  private  void  ejecutarSFJ ( ArrayList < Proceso >  procesosLista , int  q )        
+    En este proceso primero creo las extructuras y variables aux
+
+   Recorro la lista con todos los procesos(procesos general(Nuevo))
+      creo una lista aux para almacenar los procesos y poder eliminar los ya ordenados
+      creo una lista con los procesos cuyo tiempo de llegada sea menor al tiempo de reloj 
+      ordeno esta lista con los procesos pertenecientes a la ronda (SFJ)
+      elimino los elementos ya ordenados de la aux
+
+     la lista ordenada añado a una cola de procesamientos (procesos listos)
+
    vacio la lista de ordenados
     
     recorro la cola donde se escuentran los procesos pertenecientes a la ronda (hasta que este vacia o cumplir el tañano INICIAL 
